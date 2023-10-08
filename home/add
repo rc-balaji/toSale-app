@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add New Product</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f5f5f5;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            max-width: 600px;
+            margin: auto;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            margin-top: 100px;
+        }
+
+        .form-header {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 15px;
+            border-top-left-radius: 5px;
+            border-top-right-radius: 5px;
+        }
+
+        .form-container {
+            border: 1px solid #ccc;
+            border-top: none;
+            border-bottom-left-radius: 5px;
+            border-bottom-right-radius: 5px;
+            padding: 20px;
+        }
+
+        .form-group {
+            margin-bottom: 15px;
+        }
+
+        label {
+            font-weight: bold;
+        }
+
+        select,
+        input[type="text"],
+        input[type="number"],
+        input[type="file"],
+        textarea {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        select {
+            background-color: #f5f5f5;
+        }
+
+        .custom-file-upload {
+            display: inline-block;
+            padding: 6px 12px;
+            cursor: pointer;
+            background-color: #007bff;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+        }
+
+        .custom-file-upload:hover {
+            background-color: #0056b3;
+        }
+
+        .image-preview {
+            text-align: center;
+            margin-top: 10px;
+            border: 1px solid #ccc;
+            padding: 5px;
+            border-radius: 5px;
+        }
+
+        #imagePreview {
+            max-width: 100%;
+            max-height: 200px;
+        }
+
+        /* Additional styles for category-specific fields */
+        #phone-fields,
+        #bike-fields,
+        #car-fields,
+        #electronics-fields {
+            display: none;
+        }
+
+        #phone-fields input,
+        #bike-fields input,
+        #car-fields input,
+        #electronics-fields input,
+        #phone-fields select,
+        #bike-fields select,
+        #car-fields select,
+        #electronics-fields select,
+        #phone-fields textarea,
+        #bike-fields textarea,
+        #car-fields textarea,
+        #electronics-fields textarea {
+            margin-top: 10px;
+        }
+
+        /* Additional styles for category-specific fields */
+        #phone-fields,
+        #bike-fields,
+        #car-fields,
+        #electronics-fields {
+            display: none;
+            margin-top: 10px;
+            border: 1px solid #ccc;
+            padding: 15px;
+            border-radius: 5px;
+        }
+
+        /* Additional styles for the submit button */
+        input[type="submit"] {
+            background-color: #007bff;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        input[type="submit"]:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body style="background-color: white;">
+    <!-- Your HTML form code goes here -->
+</body>
+</html>
